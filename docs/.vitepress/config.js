@@ -1,12 +1,16 @@
-export default {
-  title: 'SALVIUM KNOWLEDGE',
-  description: 'Official Salvium Documentation',
-  base: '/salvium--docs/',
-  appearance: 'dark',
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  title: "Salvium",
+  description: "Privacy-First Blockchain Protocol",
+  base: '/new-docs/',
+  srcDir: './docs',
+  outDir: './docs/.vitepress/dist',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'salvium_coin_circle_white_solid.svg' }]
+  ],
   themeConfig: {
-    siteTitle: 'SALVIUM KNOWLEDGE',
-    logo: '/salvium_coin_circle_white_solid.svg',
-    
+    logo: 'salvium_coin_circle_white_solid.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Project', link: '/project/' },
@@ -64,4 +68,4 @@ export default {
       copyright: 'Copyright 2024-present Salvium'
     }
   }
-}
+})

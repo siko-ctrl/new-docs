@@ -1,0 +1,88 @@
+:root {
+  /* Teal brand colors */
+  --vp-c-brand: #14b8a6;
+  --vp-c-brand-light: #2dd4bf;
+  --vp-c-brand-lighter: #5eead4;
+  --vp-c-brand-dark: #0d9488;
+  --vp-c-brand-darker: #0f766e;
+
+  /* Background colors */
+  --vp-c-bg: #000000;
+  --vp-c-bg-soft: #111111;
+  --vp-c-bg-mute: #222222;
+
+  /* Text colors */
+  --vp-c-text: #ffffff;
+  --vp-c-text-light: #f0f0f0;
+  --vp-c-text-lighter: #e0e0e0;
+  --vp-c-text-dark: #d0d0d0;
+  --vp-c-text-darker: #c0c0c0;
+
+  /* Custom border colors */
+  --vp-c-border: #333333;
+  --vp-c-divider: #2a2a2a;
+
+  /* Code block colors */
+  --vp-code-block-bg: #1a1a1a;
+  --vp-c-gutter: #000000;
+
+  /* Override any remaining purple colors */
+  --vp-c-brand-1: #14b8a6;
+  --vp-c-brand-2: #2dd4bf;
+  --vp-c-brand-3: #5eead4;
+  
+  /* Button colors */
+  --vp-button-brand-bg: #14b8a6;
+  --vp-button-brand-hover-bg: #2dd4bf;
+  --vp-button-brand-active-bg: #0d9488;
+
+  /* Custom link colors */
+  --vp-c-brand-light: #2dd4bf;
+  --vp-c-brand-lighter: #5eead4;
+  --vp-c-brand-dark: #0d9488;
+  --vp-c-brand-darker: #0f766e;
+}
+
+/* Dark theme adjustments */
+.dark {
+  --vp-c-bg: #000000;
+  --vp-c-bg-soft: #111111;
+  --vp-c-bg-mute: #222222;
+}
+
+/* Ensure links are teal */
+.vp-doc a {
+  color: var(--vp-c-brand);
+}
+
+/* Custom link hover effect */
+.vp-doc a:hover {
+  color: var(--vp-c-brand-light);
+}
+
+/* Custom button styles */
+.VPButton {
+  border-color: var(--vp-c-brand) !important;
+}
+
+.VPButton.brand {
+  background-color: var(--vp-c-brand) !important;
+}
+
+.VPButton.brand:hover {
+  background-color: var(--vp-c-brand-light) !important;
+}
+
+/* Override any remaining purple in the theme */
+.VPNav {
+  --vp-c-brand: #14b8a6 !important;
+  --vp-c-brand-light: #2dd4bf !important;
+  --vp-c-brand-lighter: #5eead4 !important;
+  --vp-c-brand-dark: #0d9488 !important;
+  --vp-c-brand-darker: #0f766e !important;
+}
+
+/* Ensure sidebar active items are teal */
+.VPSidebarItem.is-active {
+  color: var(--vp-c-brand) !important;
+}

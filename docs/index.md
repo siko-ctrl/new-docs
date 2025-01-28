@@ -6,7 +6,7 @@ hero:
   text: "Privacy-First Blockchain Protocol"
   tagline: Secure, scalable, and compliant privacy solutions for the future of finance
   image:
-    src: /salvium_coin_circle_white_solid.svg
+    src: /new-docs/salvium_coin_circle_white_solid.svg
     alt: Salvium Logo
   actions:
     - theme: brand

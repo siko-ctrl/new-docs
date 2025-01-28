@@ -5,10 +5,10 @@ export default defineConfig({
   description: "Privacy-First Blockchain Protocol",
   base: '/new-docs/',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/salvium_coin_circle_white_solid.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/new-docs/salvium_coin_circle_white_solid.svg' }]
   ],
   themeConfig: {
-    logo: '/salvium_coin_circle_white_solid.svg',
+    logo: '/new-docs/salvium_coin_circle_white_solid.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Project', 
